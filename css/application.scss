@@ -1,0 +1,173 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@font-face {
+  font-family: "GlossAndBloom";
+  src: url("fonts/GlossAndBloom.eot"); 
+  src: url("fonts/GlossAndBloom.eot?#iefix") format("embedded-opentype"), 
+    url("fonts/GlossAndBloom.otf") format("opentype"), 
+    url("fonts/GlossAndBloom.svg") format("svg"), 
+    url("fonts/GlossAndBloom.ttf") format("truetype"), 
+    url("fonts/GlossAndBloom.woff") format("woff"), 
+    url("fonts/GlossAndBloom.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to bottom, #9f7bd5, #bb84bb, #a6a9ca);
+}
+
+#title_font{
+    font-family: 'GlossAndBloom','Noto Sans KR', cursive;
+    font-size: 30pt;
+    color: white;
+    display: inline-block;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    margin:0px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    /*background-color:purple;*/
+    color: white;
+}
+
+.header_img{
+      display: inline-block;
+}
+
+#re_navbar{
+    background-color: transparent;
+    height: 0;
+    margin:0 auto;
+    width:80vw;
+}
+
+.gnb{
+     margin:0 auto;
+     width:80vw;
+     height:5vh;
+     padding: 0;
+     position: absolute;
+     border-bottom: 1px solid white;
+     
+}
+
+.button_date{
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+}
+
+.gnb_but{
+    margin:0 auto;
+    background-color:transparent;
+    border-style: none;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    padding: 0;
+}
+
+.nav_btn{
+    flex-grow: 1;
+}
+
+.gnb_but:active{
+ color: #8248cf;  
+ border-bottom: 2px solid white;
+ background-color: transparent !important;
+}
+
+.gnb_but:focus{
+    background-color: transparent !important;
+}
+
+.search_box{
+    border: 1px solid white;
+    width: 55vw;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 130px;
+    color:white;
+}
+
+#search_btn{
+    float: right;
+    height: 50px;
+    width: 10vw;
+    background: transparent;
+    border: none;
+    margin-right: 1.5vw;
+    margin-top: -70px;
+}
+.searchh{
+    color: white;
+}
+
+div div div{
+    text-align: center;
+}
+
+.booth_num{
+    width:  800px;
+    height: 300px;
+    padding-left: 10px;
+    background: #A380EA;
+}
+
+hr{
+    padding:0px;
+    margin:0px;
+    margin-top:-2px;
+    background-color: transparent;
+}
+
+footer {
+    font-size: 15px;
+    color: white;
+    background-color: #636fa4;
+    clear: both;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.row_cont .collection {
+    border: 0px !important;
+    color:white !important;
+    text-align: center;
+    font-size: 25px;
+}
+
+#date_event div{
+    background-color:white;
+    font-size: 30px;
+    color: #A380EA;
+}

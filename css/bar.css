@@ -1,0 +1,101 @@
+.index_img{
+    /*background-size: cover;*/
+}
+
+.place{
+ margin-top:56px;
+ padding:0;
+}
+
+.button_building.col.s3{
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.button_building.col.s3 form{
+    flex-grow: 1;
+    margin:0 auto;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-style:none;
+    border-bottom-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color:black;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.place_button{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    align-items: stretch;
+    font-size: 30px;
+}
+
+.place_img.col.s9{
+    padding:0px;
+    flex-grow: 5;
+}
+
+.style_image{
+   width:75vw;
+   vertical-align:middle;
+}
+
+.style_event_image{
+   width:75vw;
+   vertical-align:middle;
+    background-color:#D88ABC;
+}
+
+.style_show_image{
+    vertical-align:middle;
+     width:75vw;
+}
+
+.home_image{
+    padding-top:50px;
+    width:75%;
+    height:100%;
+    margin: 0 12.5%;
+}
+
+
+.event_page_image{
+   width:100%;
+   vertical-align:middle;
+   height:100%;
+   padding-top:70px;
+}
+
+.for_admin{
+    border: 1px solid white;
+    width: 60%;
+    height: 50px;
+    margin: 20px auto;
+    color:white;
+}
+
+#sold_out_box{
+    width: 70%;
+    margin-left: 10%;
+}
+
+.clickme{
+    float: right !important;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: -53px;
+    margin-right: -70px;
+}
+
+input[type=text]:focus:not([readonly]){
+    border-bottom: none !important; 
+    box-shadow: 0 1px 0 0 #582ea6 !important;
+}
+
